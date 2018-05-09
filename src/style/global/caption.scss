@@ -1,0 +1,39 @@
+﻿.caption {
+    font-size: 20px;
+    font-weight: 500;
+    color: #5c5c5c;
+    line-height: 24px;
+
+    &--spacing {
+        padding: 0px 20px 0px 20px;
+    }
+
+    &--center {
+        text-align: center;
+    }
+
+    &--thin {
+        font-weight: 100;
+    }
+
+    &--mt {
+        margin-top: 18px;
+    }
+
+    &--black {
+        color: #000;
+    }
+
+    &--gray {
+        color: #bbb;
+    }
+
+    &--white {
+        color: #fff;
+    }
+
+    &--inline {
+        display: inline-block;
+    }
+
+}

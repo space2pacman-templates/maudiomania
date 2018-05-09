@@ -1,0 +1,26 @@
+﻿.helper {
+    margin-top: 20px;
+    background: #fff;    
+    padding: 22px 20px 38px 20px;
+
+    &--outside {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+    &__header {
+        font-size: 20px;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    &__content {
+        text-align: left;
+        margin-top: 22px;
+        margin-bottom: 22px;
+        padding: 0px 20px;
+        line-height: 24px;
+        font-weight: 100;
+    }
+
+}

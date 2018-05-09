@@ -1,0 +1,81 @@
+﻿.cart {
+    padding-top: 20px;
+
+    &__crenellated {
+        position: relative;
+        background: #fff;
+        margin-top: 30px;
+        padding: 20px 0;
+
+        &--up {
+            background-image: url(../img/triangle-up.png);
+            background-repeat-y: no-repeat;
+            background-position-y: top;
+            height: 10px;
+            position: absolute;
+            top: -10px;
+            width: 100%;
+        }
+
+        &--down {
+            background-image: url(../img/triangle-down.png);
+            background-repeat-y: no-repeat;
+            background-position-y: bottom;
+            height: 10px;
+            position: absolute;
+            bottom: -10px;
+            width: 100%;
+        }
+
+        &--center {
+            text-align: center;
+        }
+
+        &--margin-bottom {
+            margin-bottom: 30px;
+        }
+
+    }
+
+    &__crenellated-header {
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 100;
+        color: #5c5c5c;
+    }
+
+    &__crenellated-text {
+        font-size: 20px;
+        padding: 0 50px;
+        line-height: 26px;
+        font-weight: 100;
+    }
+
+    &__final-price {
+        text-align: center;
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 25px;
+    }
+
+    &__input-box {
+        margin-top: 12px;
+    }
+
+    &__desc {
+        font-size: 16px;
+        font-weight: 100;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        letter-spacing: -0.1px;
+        color: #5c5c5c;
+    }
+
+    &__link {
+        margin-top: 20px;
+        text-align: center;
+        color: #819fc7;
+        font-weight: 100;
+    }
+
+}

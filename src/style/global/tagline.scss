@@ -1,0 +1,19 @@
+﻿.tagline {
+
+    &--small {
+        font-size: 14px;
+    }
+
+    &--gray {
+        color: #bbb
+    }
+
+    &--center {
+        text-align: center;
+    }
+
+    &--thin {
+        font-weight: 100;
+    }
+
+}

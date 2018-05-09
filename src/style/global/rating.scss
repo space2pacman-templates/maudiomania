@@ -1,0 +1,43 @@
+﻿.rating {
+    display: inline-block;
+
+    &__count {
+        display: inline-block;
+        font-size: 12px;
+        vertical-align: top;
+        color: #ffae00;
+    }
+
+    &__valuation {
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        color: black;
+        width: 60px;
+    }
+
+    &__stars {
+        background-image: url(../img/rating-small.png);
+        height: 11px;
+        position: absolute;
+        z-index: 1;
+        
+        @for $i from 0 through 10 {
+            $width: $i * 10;
+            &--#{$i} {
+                width: $width + %;
+            }
+        }
+
+    }
+
+    &__background {
+        background-image: url(../img/rating-small.png);
+        width: 60px;
+        height: 11px;
+        background-position-x: 100%;
+        position: absolute;
+        top: 0;
+    }
+
+}

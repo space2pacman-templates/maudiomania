@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="11px" viewBox="0 0 11 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 716</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Иконки,-заглушки,-кнопки" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Иконки-для-постов" transform="translate(-2.000000, -27.000000)" fill="#17B96F">
+            <g id="Иконки-для-поста" transform="translate(0.000000, 1.000000)">
+                <g id="Лайки" transform="translate(2.000000, 26.000000)">
+                    <path d="M7,4 L7,0 L6,0 L5,1 L5,3.03588463 L4,3.96325481 L4.08445532,4.21972409 C3.43812997,4.55209842 3,5.22718705 3,6.00591905 L3,9.99707067 C3,10.5621186 3.4463856,11 3.99703014,11 L7.99833453,11 C9.66097987,11 11,9.65271089 11,7.99074554 L11,6.00591905 C11,4.88655484 10.1054196,4 9.00189865,4 L7,4 Z M0,10.1428571 L0,5.85714286 C5.3954715e-18,5.59279865 1,5 1,5 L2,5 L2,11 L1,11 L0,10.1428571 Z" id="Rectangle-716"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

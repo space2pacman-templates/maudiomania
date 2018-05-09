@@ -1,0 +1,161 @@
+﻿.icon-phone {
+    display: inline-block;
+    background-image: url(../img/phone.svg);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    margin-top: 9px;
+    margin-right: 9px;
+}
+
+.icon-location {
+    display: inline-block;
+    background-image: url(../img/location.svg);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    margin-top: 9px;
+    margin-right: 2px;
+}
+
+.icon-views {
+    display: inline-block;
+    position: relative;
+    background-image: url(../img/views.svg);
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 18px;
+    margin-top: 9px;
+    margin-right: 8px;
+
+    &__count {
+        position: absolute;
+        top: -17px;
+        display: inline-block;
+        text-align: center;
+        left: 0;
+        right: 0;
+        font-size: 12px;
+        font-weight: 700;
+        color: #175fb9;
+    }
+
+}
+
+.icon-basket {
+    display: inline-block;
+    background-image: url(../img/basket.svg);
+    background-repeat: no-repeat;
+    width: 34px;
+    height: 32px;
+    margin-top: 9px;
+    margin-right: 8px;
+    position: relative;
+    padding: 0 2px;
+
+    &__count {
+        position: absolute;
+        top: 6px;
+        display: inline-block;
+        text-align: center;
+        left: 0;
+        right: 0;
+        font-size: 12px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+}
+
+.icon-comments {
+    display: inline-block;
+    background-image: url(../img/comments.svg);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 15px;
+    position: relative;
+    top: 4px;
+}
+
+.icon-views-small {
+    display: inline-block;
+    background-image: url(../img/views-small.svg);
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 11px;
+}
+
+.icon-like-small {
+    display: inline-block;
+    background-image: url(../img/like-small.svg);
+    background-repeat: no-repeat;
+    width: 11px;
+    height: 11px;
+}
+
+.icon-dislike-small {
+    display: inline-block;
+    background-image: url(../img/dislike-small.svg);
+    background-repeat: no-repeat;
+    width: 11px;
+    height: 11px;
+}
+
+.icon-like-big {
+    display: inline-block;
+    background-image: url(../img/like.svg);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    margin-left: 20px;
+}
+
+.icon-dislike-big {
+    display: inline-block;
+    background-image: url(../img/dislike.svg);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    margin-left: 12px;
+    vertical-align: sub;
+}
+
+.icon-check-white {
+    display: inline-block;
+    background-image: url(../img/white-check.svg);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+.icon {
+
+    &__counter {
+        vertical-align: top;
+        color: #5c5c5c;
+        font-weight: 400;
+        display: inline-block;
+
+        &--green {
+            color: #17b96f;
+        }
+
+        &--red {
+            color: #b91717;
+        }
+
+        &--big {
+            font-weight: 100;
+        }
+
+        &--small {
+            font-size: 11px;
+        }
+
+    }
+}
+
+.icons {
+    display: inline-block;
+    margin-top: 5px;
+}

@@ -1,0 +1,51 @@
+﻿.wrapper {
+
+    &__in {
+
+        &--big {
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+
+        &--small {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+    }
+
+    &__out {
+
+        &--big {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        &--small {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        &-v {
+
+            &-top {
+
+                &--small {
+                    padding-top: 10px;
+                }
+
+            }
+
+            &-bottom {
+
+                &--big {
+                    padding-bottom: 20px;
+                }
+
+            }
+
+        }
+
+    }
+
+}

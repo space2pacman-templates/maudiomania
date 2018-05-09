@@ -1,0 +1,46 @@
+﻿.employees {
+    margin-bottom: 20px;
+
+    &__pic {
+        background: #0f0;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    &__info {
+        display: inline-block;
+        width: 180px;
+        vertical-align: top;
+        margin-left: 15px;
+        line-height: 24px;
+    }
+
+    &__name {
+        font-weight: 600;
+    }
+
+    &__desc {
+        font-weight: 100;
+    }
+
+    &__buttons {
+        margin-top: 20px;
+    }
+
+    &__button {
+        margin: 0 5px 0 0;
+        line-height: 18px;
+        padding: 6px 28px;
+        display: inline-block;
+        font-size: 16px;
+        text-align: center;
+
+        &:last-child {
+            margin: 0;
+        }
+
+    }
+
+}

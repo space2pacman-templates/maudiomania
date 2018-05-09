@@ -1,0 +1,20 @@
+﻿.personal-account {
+    padding-top: 10px;
+    font-family: Roboto;
+
+    &__data {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    &__img {
+        margin-top: 12px;
+        margin-bottom: 16px;
+        border-radius: 4px;
+    }
+
+    &__orders {
+        display: none;
+    }
+
+}

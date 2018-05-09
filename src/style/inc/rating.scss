@@ -1,0 +1,71 @@
+﻿.rating {
+    width: 122px;
+    position: relative;
+    height: 18px;
+
+    &--margin-left {
+        margin-left: 10px;
+    }
+
+    &--margin-top {
+        margin-top: 5px;
+    }
+
+    &--margin-bottom {
+        margin-bottom: 25px;
+    }
+
+}
+
+.rating-big {
+    background-image: url(../img/stars-big.png);
+    background-color: #fff;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    z-index: 1;
+
+    &--5 {
+        width: 100%;
+    }
+
+    &--4 {
+        width: 80%;
+    }
+
+    &--3 {
+        width: 60%;
+    }
+
+    &--2 {
+        width: 40%;
+    }
+
+    &--1 {
+        width: 20%;
+    }
+
+    &--0 {
+        width: 0%;
+    }
+
+}
+
+.rating-big-empty {
+    background: url(../img/stars-big.png);
+    width: 122px;
+    height: 20px;
+    background-position-x: 122px;
+    position: absolute;
+}
+
+.rating-count {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: #bbb;
+    font-weight: 100;
+    font-size: 16px;
+}

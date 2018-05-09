@@ -1,0 +1,31 @@
+﻿.footer {
+
+    &__social-icons {
+        background: #e6f3ff;
+        padding: 20px 20px;
+        text-align: center;
+    }
+
+    &__social-icon {
+        margin-right: 6px;
+    }
+
+    &__links {
+        font-size: 16px;
+        font-family: Roboto;
+        padding: 12px 20px;
+        background: #f0f0f0;
+        height: 24px;
+    }
+
+    &__link {
+        margin-right: 10px;
+        color: #5c5c5c;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+    }
+
+}

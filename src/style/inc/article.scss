@@ -1,0 +1,38 @@
+﻿.article {
+    font-family: Roboto;
+    padding-top: 10px;
+
+    &__header {
+        padding-top: 12px;
+        padding-left: 20px;
+        margin-bottom: 18px;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: Roboto;
+    }
+
+    & img {
+        display: inline-block;
+    }
+
+    & p {
+        padding: 8px 20px 12px 20px;
+        line-height: 24px;
+    }
+
+    & b {
+        display: block;
+        font-weight: 700;
+    }
+
+    & ul {
+        margin: 0 20px;
+        line-height: 24px;
+    }
+
+    &--text-center {
+        text-align: center;
+    }
+
+
+}

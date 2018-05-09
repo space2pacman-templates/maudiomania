@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="18px" viewBox="0 0 25 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Экшнбар-+-Логотип" transform="translate(-278.000000, -23.000000)" fill="#175FB9">
+            <g id="Полная-корзина" transform="translate(9.000000, 5.000000)">
+                <path d="M281.375,24 C281.375,25.656 280.031,27 278.375,27 C278.375,28.656 279.719,30 281.375,30 C283.031,30 284.375,28.656 284.375,27 C284.375,25.344 283.031,24 281.375,24 L281.375,24 Z M281.5,18 C275.090625,18 269,24.972 269,27 C269,29.028 275.090625,36 281.5,36 C287.909375,36 294,29.028 294,27 C294,24.972 287.909375,18 281.5,18 L281.5,18 Z M281.5,33 C278.048437,33 275.25,30.3135 275.25,27 C275.25,23.6865 278.048437,21 281.5,21 C284.951563,21 287.75,23.6865 287.75,27 C287.75,30.3135 284.951563,33 281.5,33 L281.5,33 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

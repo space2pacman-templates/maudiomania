@@ -1,0 +1,122 @@
+﻿.category-box {
+    margin-top: 20px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 16px;
+    color: #175fb9;
+    text-align: center;
+
+    &__labels {
+        position: absolute;
+        padding: 0 20px;
+        margin-top: -5px;
+    }
+
+    &__label {
+        display: inline-block;
+        font-size: 12px;
+        vertical-align: top;
+        margin-left: 18px;
+        position: relative;
+
+        &--purple {
+            color: #ca46c5;
+
+            &:after {
+                content: "";
+                display: block;
+                background-image: url(../img/purple-check.svg);
+                background-repeat: no-repeat;
+                width: 10px;
+                height: 9px;
+                position: absolute;
+                left: -12px;
+                top: 2px;
+            }
+
+        }
+
+        &--red {
+            color: #b91717;
+
+            &:after {
+                content: "";
+                display: block;
+                background-image: url(../img/red-check.svg);
+                background-repeat: no-repeat;
+                width: 10px;
+                height: 9px;
+                position: absolute;
+                left: -12px;
+                top: 2px;
+            }
+
+        }
+
+    }
+
+    &__caption {
+        font-weight: 100;
+        text-align: left;
+        padding: 0 20px;
+        margin-top: 22px;
+    }
+
+    &__value {
+        font-weight: 500;
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 8px;
+    }
+
+    &__price-box {
+        text-align: left;
+    }
+
+    &__price {
+        font-weight: 900;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 30px;
+        color: #000;
+        font-size: 20px;
+
+        &--old {
+            text-align: left;
+            margin-left: 20px;
+            margin-top: 36px;
+            margin-right: 15px;
+            color: #000;
+            font-size: 16px;
+            display: inline-block;
+            position: relative;
+
+            &:after {
+                content: "";
+                display: block;
+                border-bottom: 2px solid #b91717;
+                margin-top: -7px;
+            }
+
+        }
+
+        &--new {
+            display: inline-block;
+            margin-left: 0px;
+            color: #b91717;
+        }
+
+        &--from {
+            display: inline-block;
+            margin-left: 20px;
+            font-size: 20px;
+            font-weight: 900;
+            color: #000;
+        }
+
+    }
+
+}

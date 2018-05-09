@@ -1,0 +1,56 @@
+﻿.viewed {
+    padding-top: 12px;
+    padding-bottom: 30px;
+
+    &__box {
+        margin-top: 16px;
+        padding: 20px 20px 12px 20px;
+        background: #fff;
+        box-shadow: 0 2px 4px rgba(0,0,0,.05);
+        border-radius: 4px;
+        font-size: 20px;
+        font-weight: 100;
+        color: #175fb9;
+        position: relative;
+    }
+
+    &__header {
+        font-size: 16px;
+        width: 220px;
+        line-height: 20px;
+    }
+
+    &__images {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 12px;
+    }
+
+    &__bottom {
+        padding: 12px 0;
+
+        @include clearfix;
+
+    }
+
+    &__price {
+        font-weight: 500;
+        color: #000;
+        float: left;
+    }
+
+    &__price-desc {
+        display: inline-block;
+        font-size: 14px;
+        color: #bbbbbb;
+    }
+
+    &__article {
+        float: right;
+        font-size: 14px;
+        margin-right: 2px;
+        margin-top: 6px;
+        color: #bbbbbb;
+    }
+    
+}
